@@ -30,17 +30,17 @@ html {
     z-index: -1;
 }
 
-#navBar #logo img{
+#navBar #logo img {
     width: 80px;
     margin: 4px 25px;
     padding: 4px;
     border-radius: 10px;
-
+    border: 2px solid transparent;
 }
 
-#navBar #logo img:hover{
+#navBar #logo img:hover {
     background-color: white;
-    border: solid rgb(243, 88, 11) 2px;
+    border-color: rgb(243, 88, 11);
 }
 
 #navBar ul {
@@ -60,13 +60,13 @@ html {
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s 0s linear;
+    border: 2px solid transparent;
 }
 
 #navBar ul li a:hover {
     color: white;
     background-color: rgb(243, 88, 11);
-    border: solid rgb(243, 88, 11) 2px;
-    border: solid white 2px;
+    border-color: white;
 }
 
 /* Home Section */
@@ -167,6 +167,7 @@ html {
     z-index: -1;
     opacity: 0.34;
 }
+
 #clients {
     display: flex;
     justify-content: center;
@@ -215,7 +216,8 @@ html {
     font-weight: bold;
 }
 
-#contact-box input, #contact-box textarea {
+#contact-box input,
+#contact-box textarea {
     width: 100%;
     padding: 10px;
     border-radius: 10px;
@@ -272,6 +274,3 @@ p {
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-
-
-
